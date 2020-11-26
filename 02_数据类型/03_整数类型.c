@@ -2,48 +2,48 @@
 int main(int argc, char const *argv[])
 {
     // char
-    char c = 'a';
-    signed c = 'a';
+    char c1 = 'a';
+    signed c2 = 'a';
 
     // short
-    short s = 1;
-    signed s = 1;
+    short s1 = 1;
+    signed s2 = 1;
 
     // int
-    int i = 10;
-    signed int i =10;
-    signed i =10;
+    int i1 = 10;
+    signed int i2 =10;
+    signed i3 =10;
 
     // long
-    long l = 1000;
-    signed long l = 1000;
-    long int l = 1000;
-    signed long int l = 1000;
+    long l1 = 1000;
+    signed long l2 = 1000;
+    long int l3 = 1000;
+    signed long int l4 = 1000;
 
     // long long
-    long long ll = 1000;
-    signed long long ll = 1000;
-    long long int ll = 1000;
-    signed long  long int ll = 1000;
+    long long ll1 = 1000;
+    signed long long ll2 = 1000;
+    long long int ll3 = 1000;
+    signed long  long int ll4 = 1000;
 
     // unsigned char
-    unsigned char c = 'a';
+    unsigned char uc = 'a';
 
     // unsigned short
-    unsigned short s = 100;
-    unsigned short int s = 100;
+    unsigned short us1 = 100;
+    unsigned short int us2 = 100;
 
     // unsigned int
-    unsigned int i = 1000;
-    unsigned i = 1000;
+    unsigned int ui1 = 1000;
+    unsigned ui2 = 1000;
 
     // unsigned long
-    unsigned long l = 1000;
-    unsigned long int l = 1000;
+    unsigned long ul1 = 1000;
+    unsigned long int ul2 = 1000;
 
     // unsigned long long
-    unsigned long long ll = 10000;
-    unsigned long long int ll = 10000;
+    unsigned long long ull1 = 10000;
+    unsigned long long int ull2 = 10000;
 
     return 0;
 }

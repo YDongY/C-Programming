@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/C_Programming_Tutorial.dir/main.c.o  -o C_Programming_Tutorial 

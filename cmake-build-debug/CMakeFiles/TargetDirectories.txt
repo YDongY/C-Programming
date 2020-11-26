@@ -1,3 +1,0 @@
-/home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles/C_Programming_Tutorial.dir
