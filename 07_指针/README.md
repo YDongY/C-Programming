@@ -39,16 +39,34 @@ printf("%d \n", b); // 20
 
 ## 野指针
 
+- 指针变量未初始化
+- 指针释放未置空
+- 超过变量作用域，例如：返回局部变量地址
+
 ```c
-int *p;
-*p = 1000;
+int *p; // 指针变量未初始化
+printf("%d \n",*p);
+
+char *str = malloc(100);
+free(str);
+str = NULL; // 释放后要置空
+
+free(str); // 如果没有置空就是野指针，不能重复释放。如果置空了就是空指针，可以重复释放
 ```
 
 ## 空指针
 
+不允许向 NULL 和非法地址拷贝内存。下面代码对于 gcc 编译器不做任何输出
+
 ```c
-int *c = NULL;
-*c = 1000;
+#include "stdio.h"
+#include "string.h"
+
+int main(int argc, char const *argv[]) {
+    char *p = NULL;
+    strcpy(p,"hello world");
+    printf("%s \n",p); // 没有任何输出
+}
 ```
 
 ## 万能指针、泛型指针
@@ -87,7 +105,9 @@ for (int i = 0; i < 3; i++) {
 }
 ```
 
-## 指针 ++
+## 指针的步长
+
+- 指针 ++：向后加指针类型的大小
 
 ```c
 int arr[] = {1, 2, 3};
@@ -96,6 +116,16 @@ for (int i = 0; i < 3; i++) {
     printf("%d \t", *p); // 1 2 3
     p++; //　地址向后加 int 指针类型的大小，即 4 字节
 }
+```
+
+- 指针解引用：解出的字节数量
+
+```c
+char buf[1024] = {0};
+int a = 1000;
+memcpy(buf,&a,sizeof(int));
+char *p = buf;
+printf("%d \n",*(int *)p); // 1000，解引用，解出 int 字节数量
 ```
 
 ## 数据类型对指针作用
