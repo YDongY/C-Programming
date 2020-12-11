@@ -1,4 +1,4 @@
-# C 语言从放弃到入门
+# [C 语言从放弃到入门](https://github.com/YDongY/NotesLibrary/tree/master/C%E8%AF%AD%E8%A8%80/C%20%E8%AF%AD%E8%A8%80%E4%BB%8E%E6%94%BE%E5%BC%83%E5%88%B0%E5%85%A5%E9%97%A8)
 
 ## C 语言标准
 
