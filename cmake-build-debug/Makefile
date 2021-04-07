@@ -59,38 +59,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ydongy/Code/C-Programming-Tutorial
+CMAKE_SOURCE_DIR = /home/ydongy/Github/CDev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ydongy/Github/CDev/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,11 +87,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles /home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydongy/Github/CDev/cmake-build-debug/CMakeFiles /home/ydongy/Github/CDev/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ydongy/Github/CDev/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C_Programming_Tutorial
+# Target rules for targets named CDev
 
 # Build rule for target.
-C_Programming_Tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C_Programming_Tutorial
-.PHONY : C_Programming_Tutorial
+CDev: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CDev
+.PHONY : CDev
 
 # fast build rule for target.
-C_Programming_Tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Programming_Tutorial.dir/build.make CMakeFiles/C_Programming_Tutorial.dir/build
-.PHONY : C_Programming_Tutorial/fast
+CDev/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDev.dir/build.make CMakeFiles/CDev.dir/build
+.PHONY : CDev/fast
 
-05_数组/07_字符数组.o: 05_数组/07_字符数组.c.o
+13_常见问题/静态库/mylib.o: 13_常见问题/静态库/mylib.c.o
 
-.PHONY : 05_数组/07_字符数组.o
+.PHONY : 13_常见问题/静态库/mylib.o
 
 # target to build an object file
-05_数组/07_字符数组.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Programming_Tutorial.dir/build.make CMakeFiles/C_Programming_Tutorial.dir/05_数组/07_字符数组.c.o
-.PHONY : 05_数组/07_字符数组.c.o
+13_常见问题/静态库/mylib.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDev.dir/build.make CMakeFiles/CDev.dir/13_常见问题/静态库/mylib.c.o
+.PHONY : 13_常见问题/静态库/mylib.c.o
 
-05_数组/07_字符数组.i: 05_数组/07_字符数组.c.i
+13_常见问题/静态库/mylib.i: 13_常见问题/静态库/mylib.c.i
 
-.PHONY : 05_数组/07_字符数组.i
+.PHONY : 13_常见问题/静态库/mylib.i
 
 # target to preprocess a source file
-05_数组/07_字符数组.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Programming_Tutorial.dir/build.make CMakeFiles/C_Programming_Tutorial.dir/05_数组/07_字符数组.c.i
-.PHONY : 05_数组/07_字符数组.c.i
+13_常见问题/静态库/mylib.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDev.dir/build.make CMakeFiles/CDev.dir/13_常见问题/静态库/mylib.c.i
+.PHONY : 13_常见问题/静态库/mylib.c.i
 
-05_数组/07_字符数组.s: 05_数组/07_字符数组.c.s
+13_常见问题/静态库/mylib.s: 13_常见问题/静态库/mylib.c.s
 
-.PHONY : 05_数组/07_字符数组.s
+.PHONY : 13_常见问题/静态库/mylib.s
 
 # target to generate assembly for a file
-05_数组/07_字符数组.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_Programming_Tutorial.dir/build.make CMakeFiles/C_Programming_Tutorial.dir/05_数组/07_字符数组.c.s
-.PHONY : 05_数组/07_字符数组.c.s
+13_常见问题/静态库/mylib.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDev.dir/build.make CMakeFiles/CDev.dir/13_常见问题/静态库/mylib.c.s
+.PHONY : 13_常见问题/静态库/mylib.c.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... C_Programming_Tutorial"
-	@echo "... 05_数组/07_字符数组.o"
-	@echo "... 05_数组/07_字符数组.i"
-	@echo "... 05_数组/07_字符数组.s"
+	@echo "... CDev"
+	@echo "... 13_常见问题/静态库/mylib.o"
+	@echo "... 13_常见问题/静态库/mylib.i"
+	@echo "... 13_常见问题/静态库/mylib.s"
 .PHONY : help
 
 

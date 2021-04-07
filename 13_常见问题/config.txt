@@ -1,0 +1,13 @@
+#英雄Id
+heroId:1
+#英雄姓名
+heroName:琦玉
+#英雄攻击力
+heroAtk:999999
+#英雄防御力
+heroDef:999999
+#英雄简介
+heroInfo:无敌
+
+aaaaaa
+bbbbbb

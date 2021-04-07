@@ -1,4 +1,4 @@
-# Install script for directory: /home/ydongy/Code/C-Programming-Tutorial
+# Install script for directory: /home/ydongy/Github/CDev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ydongy/Github/CDev/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

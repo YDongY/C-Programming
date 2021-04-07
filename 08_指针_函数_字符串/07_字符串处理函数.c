@@ -26,7 +26,7 @@ int main(int argc, char const *argv[]) {
     char dest3[10] = "dest";
     char src3[] = "src";
     strcat(dest3, src3);
-    printf("%s \n", dest3); // destsr
+    printf("%s \n", dest3); // destsrc
 
     /** 字符串拼接前 n 个
      * char *strncat (char *__restrict __dest, const char *__restrict __src,size_t __n)

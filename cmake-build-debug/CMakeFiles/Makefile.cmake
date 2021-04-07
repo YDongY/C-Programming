@@ -7,28 +7,28 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeGenericSystem.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-C.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-C.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
-  "/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCInformation.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeGenericSystem.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-C.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-C.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
+  "/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
   )
 
 # The corresponding makefile is:
@@ -44,5 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/C_Programming_Tutorial.dir/DependInfo.cmake"
+  "CMakeFiles/CDev.dir/DependInfo.cmake"
   )

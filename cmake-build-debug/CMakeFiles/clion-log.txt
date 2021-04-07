@@ -1,4 +1,7 @@
-/home/ydongy/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ydongy/Code/C-Programming-Tutorial
+/home/ydongy/JetBrains/CLion-2020.3/clion-2020.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ydongy/Github/CDev
 -- Configuring done
--- Generating done
--- Build files have been written to: /home/ydongy/Code/C-Programming-Tutorial/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: CDev
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

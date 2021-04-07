@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/C_Programming_Tutorial.dir/05_数组/07_字符数组.c.o  -o C_Programming_Tutorial 
